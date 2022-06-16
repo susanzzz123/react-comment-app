@@ -3,8 +3,7 @@ import Button from 'react-bootstrap/Button'
 
 const Submit = ({name, message, setName, setMessage, setClicked, postList, setPostList, reply, width, depth}) => {
 
-    const handleClick = event => {
-        event.preventDefault()
+    const handleClick = () => {
         setName('')
         setMessage('')
         setClicked(true)
