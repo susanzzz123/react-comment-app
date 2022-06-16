@@ -11,13 +11,13 @@ const Voter = () => {
     <>
       <CaretUp size='1.2em' className={upOver ? '':'text-muted'} style={{cursor: 'pointer'}} 
       onMouseOver={() => setUpOver(true)} onMouseOut={() => setUpOver(false)}
-      onClick={ e => setVotes(votes + 1)}></CaretUp>
+      onClick={ () => setVotes(votes + 1)}></CaretUp>
       
       <p className='mt-3 text-muted' style={{fontSize: '18px'}}>{votes}</p>
 
       <CaretDown size='1.2em' className={downOver ? '':'text-muted'} style={{cursor: 'pointer'}} 
       onMouseOver={() => setDownOver(true)} onMouseOut={() => setDownOver(false)}
-      onClick={ e => setVotes(votes - 1)}></CaretDown>
+      onClick={ () => setVotes(votes - 1)}></CaretDown>
     </>
     
   )
