@@ -1,0 +1,24 @@
+{
+  "name": "react-comment-app-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1",
+    "parcel": "^2.6.0",
+    "react": "^18.1.0",
+    "react-bootstrap": "^2.4.0",
+    "react-bootstrap-icons": "^1.8.2",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
