@@ -21,7 +21,7 @@ const ReplyButton = ({width, depth}) => {
   return (
     <>
         <span className={over? '':'text-muted'} onMouseOver={() => setOver(true)}
-        onMouseOut={() => setOver(false)} style={{cursor: 'pointer'}} onClick={handleClick}>
+        onMouseOut={() => setOver(false)} style={{cursor: 'pointer'}} onClick={handleClick()}>
           <ChatLeftText ></ChatLeftText>
           <text style={{fontSize: '16px'}}>     Reply</text>
         </span>
