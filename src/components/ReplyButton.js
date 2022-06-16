@@ -14,7 +14,7 @@ const ReplyButton = ({width, depth}) => {
   const [clicked, setClicked] = useState(false)
   const [over, setOver] = useState(false)
   
-  handleClick = () => {
+  const handleClick = () => {
     setReply(!reply)
   } 
 
