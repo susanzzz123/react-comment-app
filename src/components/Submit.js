@@ -18,7 +18,7 @@ const Submit = ({name, message, setName, setMessage, setClicked, postList, setPo
 
     return (
         <>  
-            <Button className='text-center' variant="primary" onClick={handleClick} 
+            <Button className='text-center' variant="primary" onClick={() => handleClick} 
             disabled={isDisabled()} hidden={reply}>Submit</Button>
         </>
     )
